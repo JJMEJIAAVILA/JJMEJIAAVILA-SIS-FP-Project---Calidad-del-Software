@@ -42,7 +42,7 @@ Esta **landing page** tiene como propósito documentar y presentar:
 | **Integración** | Pruebas entre el backend (API REST) y frontend (interfaz) | HTTP Requests / JSON |
 | **Funcionales** | Validación de flujos de usuario: login, registros y reportes | Escenarios de prueba manual |
 | **Rendimiento** | Evaluación de tiempos de respuesta y carga del dashboard | Console API / Lighthouse |
-| **Aceptación del Usuario** | Validación final por el área de seguridad física | Criterios definidos en el plan de calidad |
+| **Aceptación del Usuario** | Validación final por el cliente | Criterios definidos en el plan de calidad |
 
 ---
 
