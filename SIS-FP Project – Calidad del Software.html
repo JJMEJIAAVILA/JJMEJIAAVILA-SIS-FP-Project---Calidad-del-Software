@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIS-FP Project | Calidad del Software</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/framer-motion/dist/framer-motion.umd.js"></script>
+  <link rel="icon" href="Sena_logo.png" />
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #d1d5db;
+      font-family: 'Poppins', sans-serif;
+    }
+    .section {
+      padding: 4rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .highlight {
+      color: #3b82f6;
+    }
+    .card {
+      background: #1f2937;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 20px rgba(59, 130, 246, 0.3);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="bg-gray-900 text-gray-100 shadow-lg">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <div class="flex items-center space-x-3">
+        <img src="Sena_logo.png" alt="Logo SENA" class="h-12 w-12" />
+        <h1 class="text-2xl font-bold">SIS-FP Project</h1>
+      </div>
+      <nav class="space-x-6 hidden md:block">
+        <a href="#instrumentos" class="hover:text-blue-400">Instrumentos</a>
+        <a href="#calidad" class="hover:text-blue-400">Calidad</a>
+        <a href="#pruebas" class="hover:text-blue-400">Pruebas</a>
+        <a href="#metodologias" class="hover:text-blue-400">Metodologías</a>
+        <a href="#contacto" class="hover:text-blue-400">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="section text-center">
+    <h2 class="text-4xl font-bold mb-4">Buenas Prácticas de <span class="highlight">Calidad del Software</span></h2>
+    <p class="text-gray-400 max-w-3xl mx-auto mb-6">
+      El proyecto <strong>SIS-FP</strong> aplica estándares internacionales de calidad, asegurando confiabilidad,
+      rendimiento y seguridad en cada módulo. Su enfoque combina metodologías tradicionales y ágiles para garantizar la mejora continua.
+    </p>
+    <a href="https://github.com/JJMEJIAAVILA/SIS-FP-Project" target="_blank"
+      class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg text-white font-semibold transition">
+      Ver Repositorio en GitHub
+    </a>
+  </section>
+
+  <!-- INSTRUMENTOS DE CALIDAD -->
+  <section id="instrumentos" class="section">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Instrumentos de Calidad de Software</h3>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="card">
+        <h4 class="text-xl font-bold mb-2 text-blue-400">Lista de Verificación</h4>
+        <p>Valida el cumplimiento de los requerimientos funcionales y no funcionales definidos para cada módulo.</p>
+      </div>
+      <div class="card">
+        <h4 class="text-xl font-bold mb-2 text-blue-400">Registro de Pruebas</h4>
+        <p>Documenta resultados de pruebas unitarias, integradas y de aceptación realizadas con Insomnia y Postman.</p>
+      </div>
+      <div class="card">
+        <h4 class="text-xl font-bold mb-2 text-blue-400">Control de Versiones</h4>
+        <p>Se utiliza Git y GitHub para la trazabilidad de los cambios, revisión de commits y control de incidencias.</p>
+      </div>
+      <div class="card">
+        <h4 class="text-xl font-bold mb-2 text-blue-400">Métricas de Rendimiento</h4>
+        <p>Evalúa tiempos de respuesta, eficiencia de la API y consistencia de datos en MongoDB.</p>
+      </div>
+      <div class="card">
+        <h4 class="text-xl font-bold mb-2 text-blue-400">Documentación Técnica</h4>
+        <p>El README del repositorio centraliza guías de instalación, arquitectura y configuraciones.</p>
+      </div>
+      <div class="card">
+        <h4 class="text-xl font-bold mb-2 text-blue-400">Validación de Seguridad</h4>
+        <p>Autenticación JWT, hash de contraseñas y validación de entradas para evitar inyecciones.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALIDAD MÍNIMA ACEPTABLE -->
+  <section id="calidad" class="section bg-gray-800 rounded-2xl">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Calidad Mínima Aceptable</h3>
+    <table class="w-full text-left border-collapse text-gray-300">
+      <thead class="text-blue-400 border-b border-gray-600">
+        <tr>
+          <th class="py-2">Categoría</th>
+          <th class="py-2">Requisito</th>
+          <th class="py-2 text-center">Cumplimiento</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="border-b border-gray-700">
+          <td>Funcionalidad</td>
+          <td>CRUD completo para todas las entidades principales.</td>
+          <td class="text-center">✅</td>
+        </tr>
+        <tr class="border-b border-gray-700">
+          <td>Seguridad</td>
+          <td>JWT, hash bcryptjs y middleware de autenticación.</td>
+          <td class="text-center">✅</td>
+        </tr>
+        <tr class="border-b border-gray-700">
+          <td>Interfaz</td>
+          <td>Diseño responsivo con Tailwind CSS y validaciones de formularios.</td>
+          <td class="text-center">✅</td>
+        </tr>
+        <tr class="border-b border-gray-700">
+          <td>Rendimiento</td>
+          <td>Respuestas inferiores a 2 segundos en operaciones CRUD.</td>
+          <td class="text-center">✅</td>
+        </tr>
+        <tr class="border-b border-gray-700">
+          <td>Documentación</td>
+          <td>Manual técnico, README y guías de instalación.</td>
+          <td class="text-center">✅</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- PRUEBAS -->
+  <section id="pruebas" class="section">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Pruebas Realizadas</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="card">
+        <h4 class="text-xl font-bold text-blue-400 mb-2">Pruebas Unitarias</h4>
+        <p>Validación de endpoints del backend con Insomnia y Postman.</p>
+      </div>
+      <div class="card">
+        <h4 class="text-xl font-bold text-blue-400 mb-2">Pruebas de Integración</h4>
+        <p>Verificación de la comunicación entre el frontend y el backend mediante peticiones HTTP.</p>
+      </div>
+      <div class="card">
+        <h4 class="text-xl font-bold text-blue-400 mb-2">Pruebas Funcionales</h4>
+        <p>Evaluación de formularios y operaciones CRUD en el frontend con validaciones completas.</p>
+      </div>
+      <div class="card">
+        <h4 class="text-xl font-bold text-blue-400 mb-2">Pruebas de Seguridad</h4>
+        <p>Evaluación de autenticación, validación de tokens y control de accesos no autorizados.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- METODOLOGÍAS -->
+  <section id="metodologias" class="section bg-gray-800 rounded-2xl">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Metodologías de Desarrollo</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="card">
+        <h4 class="text-xl font-bold text-blue-400 mb-2">Cascada (Tradicional)</h4>
+        <p>Aplicada en la fase de análisis y diseño inicial del sistema y base de datos.</p>
+      </div>
+      <div class="card">
+        <h4 class="text-xl font-bold text-blue-400 mb-2">Scrum (Ágil)</h4>
+        <p>Desarrollo iterativo por sprints, priorizando entregas funcionales y retroalimentación continua.</p>
+      </div>
+      <div class="card">
+        <h4 class="text-xl font-bold text-blue-400 mb-2">Kanban (Ágil)</h4>
+        <p>Uso de tableros visuales en GitHub Projects para el seguimiento de tareas y avances.</p>
+      </div>
+      <div class="card">
+        <h4 class="text-xl font-bold text-blue-400 mb-2">Pruebas Continuas</h4>
+        <p>Validación constante en cada sprint mediante pruebas unitarias y revisiones de código.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section text-center">
+    <h3 class="text-3xl font-semibold mb-4">Contacto y Créditos</h3>
+    <p>Desarrollado por <strong>Jhon Jairo Mejía Ávila</strong></p>
+    <p>Programa: Tecnólogo en Análisis y Desarrollo de Software (2885525) – SENA</p>
+    <div class="mt-4">
+      <a href="mailto:jhon_jmejia@soy.sena.edu.co" class="text-blue-400 hover:text-blue-300 underline">
+        jhon_jmejia@soy.sena.edu.co
+      </a>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-center py-4 text-gray-500 text-sm">
+    © 2025 SIS-FP Project | Todos los derechos reservados
+  </footer>
+</body>
+</html>
