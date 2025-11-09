@@ -2,7 +2,7 @@
 
 ### 🚀 Proyecto Formativo SENA – Aplicación de Buenas Prácticas de Calidad
 
-Esta Landing Page ha sido desarrollada como parte del proceso de **documentación y aplicación de buenas prácticas de calidad** del sistema **SIS-FP Project**, una solución tecnológica creada para optimizar la **gestión y el control de seguridad portuaria** en entornos industriales.
+Esta Landing Page ha sido desarrollada como parte del proceso de **documentación y aplicación de buenas prácticas de calidad** del sistema **SIS-FP Project**, una solución tecnológica creada para optimizar la **gestión y el control de seguridad portuaria**.
 
 La página presenta la estructura, metodología, y resultados del proceso de implementación de calidad del software desarrollado, integrando los elementos solicitados por el componente formativo **"Fundamentos de calidad de software"**.
 
