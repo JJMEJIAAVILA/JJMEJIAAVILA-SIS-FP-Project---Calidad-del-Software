@@ -83,9 +83,7 @@ Esta **landing page** tiene como propósito documentar y presentar:
 
 El sitio se encuentra disponible públicamente en:
 
-🔗 **[https://sis-fp-quality.netlify.app](https://sis-fp-quality.netlify.app)**  
-_(Reemplaza con tu URL real una vez desplegada)_
-
+🔗 **[https://informecalidadsoftwaresisfp.netlify.app/](https://informecalidadsoftwaresisfp.netlify.app/)**  
 
 ---
 
